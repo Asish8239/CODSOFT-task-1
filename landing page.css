@@ -1,0 +1,264 @@
+/* Global  */
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: grey;
+   border: #333 solid 23px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; 
+    border-radius: 10px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease; 
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+  
+  nav li:hover {
+    background-color: grey; 
+    border-radius: 8px;
+  }
+  
+  /* Hero Section  */
+  
+  #hero {
+    background-color: rgb(240, 223, 223);
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center; 
+  }
+  
+  #hero img {
+    width: 40%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: black
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666; 
+  }
+  
+  #hero button {
+    background-color: #333;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+  }
+  
+  #hero button:hover {
+    background-color: #444; 
+  }
+  
+  /* About Section  */
+  
+  #about {
+    padding: 50px;
+    text-align: center;
+    
+    background-color: #c7dfe0; 
+  }
+  
+  #about img {
+    width: 30%;
+    height:300px;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #about .testimonial {
+    background-color: #91b8d7;
+    padding: 20px;
+  
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  #about .testimonial p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: black; 
+  }
+  
+  /* Products Section  */
+  
+  #products {
+    padding: 50px;
+    text-align: center;
+   
+    background-color: #c7dfe0;
+  }
+  
+  #products ul {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #products li {
+    margin: 20px;
+    width: calc(20.33% - 10px);
+    background-color: white; 
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  #products img {
+    width: 100%;
+    height: 280px;
+   
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  #products h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: black; 
+  }
+  
+  #products p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #666; 
+  }
+  
+  #products button {
+    background-color: #444; 
+    color: white; 
+    border: none;
+    padding: 10px ;
+   margin-bottom:10px ;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease; 
+  }
+  
+  #products button:hover {
+    background-color:lightslategray; 
+  }
+  
+  /* Gallery Section */
+  
+  #gallery {
+    padding: 50px;
+    text-align: center;
+  
+   
+    background-color: rgb(240, 223, 223);
+
+  }
+  
+  #gallery .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #gallery img {
+    width: 25%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Contact Section  */
+  
+  #contact {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(240, 223, 223);
+    
+  }
+  
+  #contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+
+  }
+  .logo{
+    width: 40px;
+    cursor: pointer;
+  }
+  #contact a {
+    color: #e12c2c; 
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  #contact a:hover {
+    color: black; 
+  }
+ 
+  /* Footer  */
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .project img {
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+}
